@@ -1,6 +1,11 @@
 // _helpers.scss
 
 @import "resets";
-@import "typography";
 @import "mixins";
+@import "typography";
+
 @import "variables";
+
+@import "page";
+
+@import "navigation";

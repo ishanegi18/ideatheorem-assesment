@@ -1,5 +1,21 @@
 // font related code here
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 h1{
-    font-size: 4rem;
-    font-weight: 800;
+    @include heading1;
+}
+
+h2{
+    @include heading2;
+}
+
+p, .para-medium{
+    @include para-medium;
+}
+
+
+.para-small{
+    @include para-small;
 }
