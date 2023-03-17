@@ -44,22 +44,14 @@
   @mixin para-small {
     line-height: 1.25;
     font-weight: 400;
-    font-size: 0.6rem;
-    @media screen and (min-width: 992px) {
-        font-size: 0.8rem;
-    }
-    @media screen and (min-width: 1200px) {
+
       font-size: 1rem;
-    }
+    
   }
 
   @mixin para-medium {
-    font-size: 0.9rem;
-    @media screen and (min-width: 992px) {
-        font-size: 1.10rem;
-    }
-    @media screen and (min-width: 1200px) {
+
       font-size: 1.12rem;
-    }
+    
   }
   

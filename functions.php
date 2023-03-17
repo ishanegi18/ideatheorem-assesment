@@ -21,7 +21,11 @@ function ideatheorem_scripts() {
     wp_enqueue_style( 'main-styles', get_template_directory_uri(). '/css/style.css' );
     
     // Enqueue scripts
+    wp_enqueue_script( 'gsap-script', get_template_directory_uri() . '/js/gsap.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'scroll-trigger-script', get_template_directory_uri() . '/js/ScrollTrigger.min.js', array(), '1.0.0', true );
     wp_enqueue_script( 'main-script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true );
+
+  
 }
 add_action( 'wp_enqueue_scripts', 'ideatheorem_scripts' );
 
