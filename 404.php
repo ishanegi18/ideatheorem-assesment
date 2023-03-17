@@ -1,3 +1,17 @@
+<?php
+
+/**
+ * The template for displaying the 404 page
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package ideatheorem
+ * 
+ * @author Isha Negi
+ */
+
+ ?>
+
 <?php get_header(); ?>
 
 <main id="main" class="site-main" role="main">

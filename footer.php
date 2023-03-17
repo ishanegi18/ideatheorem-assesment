@@ -1,20 +1,14 @@
 <?php
 
 /**
- * Template for displaying the footer
+ * The template for displaying the footer
  *
- * Description for template.
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @Author: Isha Negi
- * @Date: 2020-05-11 13:33:49
- * @Last Modified by:   Isha Negi
- * @Last Modified time: 2022-09-07 11:57:45
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- * @package ideatheroem
+ * @package ideatheorem
+ * 
+ * @author Isha Negi
  */
-
-namespace ideatheroem;
 
 ?>
 
