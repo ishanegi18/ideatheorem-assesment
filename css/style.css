@@ -45,9 +45,87 @@ input {
   border-radius: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
-  font-size: 4rem;
-  font-weight: 800;
+  line-height: 1.24;
+  font-weight: 500;
+  letter-spacing: 0.316981px;
+  font-size: 1.8rem;
+}
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 2.4375rem;
+  }
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 1.6rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+
+p, .para-medium {
+  font-size: 0.9rem;
+}
+@media screen and (min-width: 992px) {
+  p, .para-medium {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  p, .para-medium {
+    font-size: 1.12rem;
+  }
+}
+
+.para-small {
+  line-height: 1.25;
+  font-weight: 400;
+  font-size: 0.6rem;
+}
+@media screen and (min-width: 992px) {
+  .para-small {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .para-small {
+    font-size: 1rem;
+  }
+}
+
+.container {
+  max-width: calc(100% - 1.6875rem);
+  margin: auto;
+  background-color: #fff;
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: calc(100% - 2.6875rem);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
