@@ -2,7 +2,6 @@
 
 // disable comments
 function disable_comments() {
-    // Remove comments support from all post types
     remove_post_type_support( 'post', 'comments' );
     remove_post_type_support( 'page', 'comments' );
 }
@@ -21,8 +20,8 @@ function ideatheorem_scripts() {
     wp_enqueue_style( 'main-styles', get_template_directory_uri(). '/css/style.css' );
     
     // Enqueue scripts
-    wp_enqueue_script( 'gsap-script', get_template_directory_uri() . '/js/gsap.min.js', array(), '1.0.0', true );
-    wp_enqueue_script( 'scroll-trigger-script', get_template_directory_uri() . '/js/ScrollTrigger.min.js', array(), '1.0.0', true );
+    wp_enqueue_script( 'gsap-script', get_template_directory_uri() . '/js/gsap.min.js', array(), '1.0.0', true ); //GSAP for animations
+    wp_enqueue_script( 'scroll-trigger-script', get_template_directory_uri() . '/js/ScrollTrigger.min.js', array(), '1.0.0', true ); //GSAP for scroll trigger
     wp_enqueue_script( 'main-script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true );
 
   
@@ -35,6 +34,7 @@ add_action( 'wp_enqueue_scripts', 'ideatheorem_scripts' );
 
   
 
+// logo setting in customiser
   function custom_theme_customizer( $wp_customize ) {
     $wp_customize->add_setting( 'logo_image' );
   
@@ -50,6 +50,7 @@ add_action( 'wp_enqueue_scripts', 'ideatheorem_scripts' );
   
 
 
+  // adding support for menus
   add_theme_support( 'menus' );
 
   function register_my_menus() {

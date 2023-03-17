@@ -1,4 +1,18 @@
-<?php get_header(); ?>
+
+<?php
+
+/**
+ * The template for displaying pages
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *  *
+ * @package ideatheorem
+ * 
+ * @author Isha Negi
+ */
+
+
+get_header(); ?>
 
 <main id="main" class="site-main">
     <div class="container">

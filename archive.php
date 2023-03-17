@@ -1,11 +1,14 @@
 <?php
 /**
- * The template for displaying archive pages
+ * The template for displaying the archive page
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package ideatheorem
+ * 
+ * @author Isha Negi
  */
+
 
 get_header(); ?>
 
