@@ -313,6 +313,7 @@ nav .container {
   }
 }
 .is-front-page .profile-details {
+  padding-bottom: 5rem;
   gap: 25px;
 }
 .is-front-page .profile-details .profile-left {

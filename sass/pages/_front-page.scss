@@ -95,7 +95,7 @@ margin-left: 0;
 
 
     .profile-details{
-        
+        padding-bottom: 5rem;
         gap: 25px;
         .profile-left{
             display: flex;
@@ -121,6 +121,7 @@ margin-left: 0;
         .wp-block-group__inner-container{
             @media screen and (max-width:1000px){
                 .wp-block-columns{
+                    
                     flex-wrap: wrap !important;
                     .wp-block-column{
                         flex-basis: 100% !important;
